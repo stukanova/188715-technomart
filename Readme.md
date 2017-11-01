@@ -1,7 +1,7 @@
 ﻿# Личный проект «Техномарт»
 
 * Студент: [Анна Стуканова](https://up.htmlacademy.ru/htmlcss/19/user/188715).
-* Наставник: [Виталий Мещеряков] (https://htmlacademy.ru/profile/id484773).
+* Наставник: [Виталий Мещеряков](https://htmlacademy.ru/profile/id484773).
 
 ---
 
