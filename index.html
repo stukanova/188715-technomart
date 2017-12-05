@@ -7,7 +7,7 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="inner-page">
     <header class="main-header">
       <section class="user-menu">
         <div class="container">
@@ -95,9 +95,9 @@
             <h2>Популярные товары:</h2>
             <a href="#" class="button">Все популярные товары</a>
           </div>
-          <ul class="goods-list">
+          <ul class="goods-list goods-list-index">
             <li class="goods-item">
-              <div class="visually-hidden flag-new">Новинка</div>
+              <div class="flag flag-new"><span class="visually-hidden">Новинка</span></div>
               <div class="actions">
                 <a href="#" class="buy">Купить</a>
                 <a href="#" class="bookmark">В закладки</a>
@@ -112,7 +112,7 @@
               </p>
             </li>
             <li class="goods-item">
-              <div class="visually-hidden flag-new">Новинка</div>
+              <div class="flag flag-new"><span class="visually-hidden">Новинка</span></div>
               <div class="actions">
                 <a href="#" class="buy">Купить</a>
                 <a href="#" class="bookmark">В закладки</a>
@@ -127,7 +127,7 @@
               </p>
             </li>
             <li class="goods-item">
-              <div class="visually-hidden flag-new">Новинка</div>
+              <div class="flag flag-new"><span class="visually-hidden">Новинка</span></div>
               <div class="actions">
                 <a href="#" class="buy">Купить</a>
                 <a href="#" class="bookmark">В закладки</a>
@@ -142,7 +142,7 @@
               </p>
             </li>
             <li class="goods-item">
-              <div class="visually-hidden flag-new">Новинка</div>
+              <div class="flag flag-new"><span class="visually-hidden">Новинка</span></div>
               <div class="actions">
                 <a href="#" class="buy">Купить</a>
                 <a href="#" class="bookmark">В закладки</a>
@@ -255,7 +255,7 @@
           <h2>Контакты</h2>
           <p>Вы можете забрать товар сами,<br>
             заехав в наш офис:</p>
-          <a href="https://yandex.ru/maps/2/saint-petersburg/">
+          <a href="https://yandex.ru/maps/2/saint-petersburg/?source=wizgeo&utm_source=serp&l=map&utm_medium=maps-desktop&mode=search&text=%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%2C%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%2C%20%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F%20%D0%9A%D0%BE%D0%BD%D1%8E%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%2C%2019%2F8&sll=30.315868%2C59.939095">
             <img src="img/map.jpg" width="300" alt="Большая Конюшенная ул., 19">
           </a>
           <a href="#" class="button">Заблудились? Напишите нам!</a>
@@ -275,26 +275,30 @@
     </main>
     <footer class="main-footer">
       <div class="main-footer-wrapper container">
-        <div class="main-footer-contacts-column">
+        <div class="main-footer-top-row">
           <div class="logotype">
             <img src="img/logo.png" width="138" alt="Техномарт">
           </div>
+          <ul class="footer-navigation footer-navigation-top-row">
+            <li><a href="about-company.html">Компания</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="delivery.html">Доставка</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="main-footer-bottom-row">
           <p class="footer-contacts">
             г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
             +7 (812) 555-05-55
           </p>
+          <ul class="footer-navigation footer-navigation-bottom-row">
+            <li><a href="materials.html">Материалы</a></li>
+            <li><a href="mechanisms.html">Техника</a></li>
+            <li><a href="tools.html">Инструмент</a></li>
+            <li><a href="special-offers.html">Спецпредложения</a></li>
+          </ul>
         </div>
-        <ul class="footer-navigation">
-          <li><a href="about-company.html">Компания</a></li>
-          <li><a href="news.html">Новости</a></li>
-          <li><a href="catalog.html">Каталог</a></li>
-          <li><a href="delivery.html">Доставка</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-          <li><a href="materials.html" class="menu-bottom-row">Материалы</a></li>
-          <li><a href="mechanisms.html" class="menu-bottom-row">Техника</a></li>
-          <li><a href="tools.html" class="menu-bottom-row">Инструмент</a></li>
-          <li><a href="special-offers.html" class="menu-bottom-row">Спецпредложения</a></li>
-        </ul>
       </div>
     </footer>
     <footer class="social">
