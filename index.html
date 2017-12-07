@@ -15,6 +15,7 @@
             <li class="logotype"><img src="img/logo.png" width="110" alt="Техномарт"></li>
             <li class="user-menu-option">
               <input type="search" name="search" placeholder="Поиск:">
+              <span></span>
             </li>
             <li class="user-menu-option"><a href="#">Закладки: 0</a></li>
             <li class="user-menu-option"><a href="#">Корзина: 0</a></li>
@@ -71,15 +72,15 @@
               <span>Настоящие мужские игрушки</span>
               <img src="img/slider-1.jpg" width="620" alt="Перфораторы">
               <a href="catalog.html" class="button">Открыть каталог</a>
+              <div class="controls-arrows"></div>
+              <div class="controls-radio"></div>
             </li>
-<!--
             <li class="promo-list-item slider">
               <h4>Дрели</h4>
               <span>Соседям на радость!</span>
               <img src="img/slider-2.jpg" width="620" alt="Дрели">
               <a href="catalog.html" class="button">Открыть каталог</a>
             </li>
--->
             <li class="promo-list-item">
               <h3>Скидки 50%</h3>
               <a href="#" class="promo-button">На 350 товаров</a>
@@ -217,25 +218,28 @@
               <li class="services-list-item"><a href="#">Гарантия</a></li>
               <li class="services-list-item"><a href="#">Кредит</a></li>
             </ul>
-          <div class="services-item">
+            <div class="services-item">
               <h4>Доставка</h4>
               <p>Мы с удовольствием доставим ваш товар прямо<br>
                 к вашему подъезду совершенно бесплатно!<br>
                 Ведь мы неплохо заработаем,<br>
                 поднимая его на ваш этаж!</p>
             </div>
+            <div class="services-item">
+              <h4>Гарантия</h4>
+              <p>Если купленный у нас товар поломается или заискрит,<br>
+                а также в случае пожара, спровоцированного его возгоранием,<br>
+                вы всегда можете быть уверены в нашей гарантии. Мы обменяем<br>
+                сгоревший товар на новый.<br>
+                Дом уж восстановите как-нибудь сами.</p>
+            </div>
+            <div class="services-item">
+              <h4>Кредит</h4>
+              <p>Залезть в долговую яму стало проще!<br>
+                Кредитные консультанты придут вам на помощь.</p>
+              <a href="#" class="button">Отправить заявку</a>
+            </div>
           </div>
-<!--
-          <div class="services-item">
-            <h4>Гарантия</h4>
-            <p>Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгоранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.</p>
-          </div>
-          <div class="services-item">
-            <h4>Кредит</h4>
-            <p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
-            <a href="#" class="button">Отправить заявку</a>
-          </div>
--->
         </div>
       </section>
       <div class="about-company-columns container">
@@ -261,17 +265,17 @@
           <a href="#" class="button">Заблудились? Напишите нам!</a>
         </section>
       </div>
-<!--
-      <section class="write-us">
+      <section class="modal modal-write-us">
         <form class="write-us-form" action="https://echo.htmlacademy.ru" method="post">
           <label>Ваше имя:<input type="text" name="name" placeholder="Представьтесь, пожалуйста"></label>
           <label>Ваш e-mail:<input type="email" name="email" placeholder="Для отправки ответа"></label>
           <label>Текст письма:<textarea name="comment" rows="7">В свободной форме</textarea></label>
-          <button type="submit" class="button">Отправить</button>
+          <div class="write-us-button-field">
+            <button type="submit" class="button">Отправить</button>
+          </div>
         </form>
         <button class="modal-close" type="button">Закрыть</button>
       </section>
--->
     </main>
     <footer class="main-footer">
       <div class="main-footer-wrapper container">
