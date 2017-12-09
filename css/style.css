@@ -126,10 +126,12 @@ input[type="radio"].visually-hidden {
   vertical-align: top;
 }
 
+a.logotype:hover,
 .logotype a:hover {
   background-color: #ca2c37;
 }
 
+a.logotype:focus,
 .logotype a:focus {
   background-color: #ba2732;
 }
@@ -1020,7 +1022,7 @@ h3.goods-name {
   position: absolute;
 
   left: 52px;
-  top: 50px;
+  top: 54px;
 
   background-image: url("../img/icon-cart.svg");
   background-repeat: no-repeat;
@@ -1391,8 +1393,8 @@ ul.transport_company-list {
 .modal-close {
   position: absolute;
 
-  top: 6px;
-  right: 20px;
+  top: 8px;
+  right: 8px;
 
   width: 23px;
   height: 23px;
@@ -1400,32 +1402,13 @@ ul.transport_company-list {
   font-size: 0;
 
   border: 0;
+  background-color: #ffffff;
 
   cursor: pointer;
 
-  background-color: #ffffff;
-}
-
-.modal-close::before,
-.modal-close::after {
-  content: "";
-
-  position: absolute;
-
-  width: 25px;
-  height: 3px;
-
-  background-color: #ee3643;
-
-  border-radius: 3px;
-}
-
-.modal-close::before {
-  transform: rotate(45deg);
-}
-
-.modal-close::after {
-  transform: rotate(-45deg);
+  background-image: url("../img/form-2.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 
 section.modal-write-us {
@@ -1737,7 +1720,7 @@ a.log-out {
   display: block;
 
   width: 22px;
-  height: 20px;
+  min-height: 20px;
 
   margin-right: 10px;
 
