@@ -6,10 +6,12 @@ var feedPopup = document.querySelector('.modal-write-us');
 var buyPopup = document.querySelector('.modal-buy');
 var allPopups = document.querySelectorAll('.modal');
 
-feedButton.addEventListener('click', function (e) {
-  e.preventDefault();
-  feedPopup.classList.add('active');
-});
+if (feedButton) {
+  feedButton.addEventListener('click', function (e) {
+    e.preventDefault();
+    feedPopup.classList.add('active');
+  });
+}
 
 for (var i = 0; i < buyButton.length; i++) {
   buyButton[i].addEventListener('click', function (e) {
