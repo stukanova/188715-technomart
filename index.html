@@ -333,31 +333,6 @@
         </p>
       </div>
     </footer>
-    <script>
-     var btn = document.querySelector('.button-to-modal');
-     var popup = document.querySelector('.modal');
-     var closeBtn = document.querySelector('.modal-close');
-
-     btn.addEventListener('click', function (e) {
-       e.preventDefault();
-       popup.classList.add('active');
-     });
-
-     function popupClose() {
-       popup.classList.remove('active');
-     }
-
-     closeBtn.addEventListener('click', function () {
-       popupClose();
-     });
-
-     window.addEventListener('keydown', function (e) {
-       if (e.keyCode === 27) {
-         if (popup.classList.contains('active')) {
-           popupClose();
-         }
-       }
-     });
-    </script>
+    <script src="js/script.js"></script>
   </body>
 </html>

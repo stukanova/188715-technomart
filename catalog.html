@@ -295,7 +295,7 @@
             В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
       </div>
       </section>
-      <section class="modal">
+      <section class="modal modal-buy">
         <p class="modal-info">Товар добавлен в корзину!</p>
         <div class="modal-info-buttons">
           <a href="#" class="button">Оформить заказ</a>
@@ -351,33 +351,6 @@
         </p>
       </div>
     </footer>
-    <script>
-     var btn = document.querySelectorAll('.buy');
-     var popup = document.querySelector('.modal');
-     var closeBtn = document.querySelector('.modal-close');
-
-     for (var i = 0; i < btn.length; i++) {
-       btn[i].addEventListener('click', function (e) {
-         e.preventDefault();
-         popup.classList.add('active');
-       });
-     }
-
-     function popupClose() {
-       popup.classList.remove('active');
-     }
-
-     closeBtn.addEventListener('click', function () {
-       popupClose();
-     });
-
-     window.addEventListener('keydown', function (e) {
-       if (e.keyCode === 27) {
-         if (popup.classList.contains('active')) {
-           popupClose();
-         }
-       }
-     });
-    </script>
+    <script src="js/script.js"></script>
   </body>
 </html>
